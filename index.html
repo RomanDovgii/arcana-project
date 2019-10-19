@@ -123,73 +123,150 @@
         <h2 class="visually-hidden">Themeblock</h2>
         <ul class="products__list">
           <li>
-          <div class="products__block products__dresses">
-            <a href="" class="products__link dresses__link">dresses</a>
-          </div>
+            <div class="products__block products__dresses">
+              <a href="" class="products__link dresses__link">dresses</a>
+            </div>
           </li>
           <li>
-          <div class="products__block products__blouses">
-            <a href="" class="products__link blouses__link">blouses</a>
-          </div>
+            <div class="products__block products__blouses">
+              <a href="" class="products__link blouses__link">blouses</a>
+            </div>
           </li>
           <li>
-          <div class="products__block products__t-shirts">
-            <a href="" class="products__link t-shirts__link">t-shirts</a>
-          </div>
+            <div class="products__block products__t-shirts">
+              <a href="" class="products__link t-shirts__link">t-shirts</a>
+            </div>
           </li>
           <li>
-          <div class="products__block products__outerwear">
-            <a href="" class="products__link outerwear__link">outerwear</a>
-          </div>
+            <div class="products__block products__outerwear">
+              <a href="" class="products__link outerwear__link">outerwear</a>
+            </div>
           </li>
         </ul>
       </section>
 
       <section class="main__trending">
-        <h2>Top Trending</h2>
+        <h2 class="trending__heading">Top Trending</h2>
+        <p class="trending__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </section>
 
       <section class="main__bags-and-shoes">
-        <h2>Bags & Shoes</h2>
+        <div class="bags-and-shoes__img">
+          <img src="./img/main-index/bags-and-shoes.jpg" width="958" height="630" alt="Our amazing bags and shoes">
+        </div>
+        <div class="bags-and-shoes__text">
+          <h2 class="bas__heading">Bags & Shoes</h2>
+          <p class="bas__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <a href="" class="bas__link">discovery more</a>
+        </div>
       </section>
 
       <section class="main__brands">
         <h2 class="visually-hidden">Brands</h2>
+        <ul class="brands-list">
+          <li class="brands-list__item">
+            <a class="brands-link brands-link-1" href="">
+              <p class="visually-hidden">sisley</p>
+            </a>
+          </li>
+          <li class="brands-list__item">
+            <a class="brands-link brands-link-2" href="">
+              <p class="visually-hidden">wrangler</p>
+            </a>
+          </li class="brands-list__item">
+          <li>
+            <a class="brands-link brands-link-3" href="">
+              <p class="visually-hidden">fred perry</p>
+            </a>
+          </li>
+          <li class="brands-list__item">
+            <a class="brands-link brands-link-4" href="">
+              <p class="visually-hidden">levis</p>
+            </a>
+          </li>
+          <li class="brands-list__item">
+            <a class="brands-link brands-link-5" href="">
+              <p class="visually-hidden">jack and jones</p>
+            </a>
+          </li>
+          <li>
+            <a class="brands-link brands-link-6" href="">
+              <p class="visually-hidden">lacoste</p>
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section class="main__instagram">
-        <h2>#Instagram</h2>
+        <a href="#">
+          <h2 class="insta">#Instagram</h2>
+        </a>
       </section>
 
       <section class="main__map">
         <h2 class="visually-hidden">Map</h2>
+        <div class="map__info">
+          <p class="map__text">Alterego, 1 Infinite Loop, Cupertino, CA 95014</p>
+          <p><a class="map__text" href="tel:8-800-2000-3000">8 - 800 - 2000 - 3000</a></p>
+          <p><a class="map__text" href="mailto:demo@demo.com">demo@demo.com</a></p>
+          <p class="map__text">Mon. - Sun: 09:00 - 19:00</p>
+        </div>
       </section>
     </div>
   </main>
 
 
-  <footer>
-    <div class="container">
-      <section class="footer__social">
+  <footer class="footer">
+    <div class="container container__footer">
+      <section class="footer__column footer__social">
         <h2 class="visually-hidden">Our social media</h2>
+        <img class="social__img" width="187px" height="18px" src="./img/footer/logo.png" alt="A•R•K•A•N•A">
+        <p class="social__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <ul class="social__list">
+          <li class="social__list-item social__list-item-1"><a class="social__link social__link-1"><p class="visually-hidden">our facebook</p></a></li>
+          <li class="social__list-item social__list-item-2"><a class="social__link social__link-2"><p class="visually-hidden">our Instagram</p></a></li>
+          <li class="social__list-item social__list-item-3"><a class="social__link social__link-3"><p class="visually-hidden">our pinterest</p></a></li>
+          <li class="social__list-item social__list-item-4"><a class="social__link social__link-4"><p class="visually-hidden">our twitter</p></a></li>
+        </ul>
+        <form class="social__subscribe" action="index.html" method="post">
+          <input class="social__input" type="email" placeholder="Enter your e-mail">
+          <button class="social__button" type="submit" name="button">subscribe</button>
+        </form>
       </section>
 
-      <section class="footer__products ">
-        <h2>Products</h2>
+      <section class="footer__column footer__products ">
+        <h2 class="footer__heading">Products</h2>
+        <a class="footer__link products-footer__link" href="">Prices drop</a>
+        <a class="footer__link products-footer__link" href="">New products</a>
+        <a class="footer__link products-footer__link" href="">Best sales</a>
       </section>
 
-      <section class="footer__information">
-        <h2>Information</h2>
+      <section class="footer__column footer__information">
+        <h2 class="footer__heading">Information</h2>
+        <a class="footer__link information-footer__link" href="">Delivery</a>
+        <a class="footer__link information-footer__link" href="">Legal Notice</a>
+        <a class="footer__link information-footer__link" href="">Terms and conditions of use</a>
+        <a class="footer__link information-footer__link" href="">About us</a>
+        <a class="footer__link information-footer__link" href="">Secure payment</a>
+        <a class="footer__link information-footer__link" href="">Contact us</a>
+        <a class="footer__link information-footer__link" href="">Sitemap</a>
+        <a class="footer__link information-footer__link" href="">Stores</a>
       </section>
 
-      <section class="footer__your-account">
-        <h2>Your account</h2>
+      <section class="footer__column footer__your-account">
+        <h2 class="footer__heading your-account__heading">Your account</h2>
+        <a href="" class="footer__link your-account-footer__link">Addresses</a>
+        <a href="" class="footer__link your-account-footer__link">Credit slips</a>
+        <a href="" class="footer__link your-account-footer__link">Orders</a>
+        <a href="" class="footer__link your-account-footer__link">Personal info</a>
       </section>
     </div>
 
-    <div class="container">
+    <div class="container container-payment">
       <section class="footer__payment">
         <h2 class="visually-hidden">Payment methods</h2>
+        <img class="payment-img" src="./img/footer/payment-method.png" alt="visa mastercard PayPal and one more">
       </section>
     </div>
   </footer>
