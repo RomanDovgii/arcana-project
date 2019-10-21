@@ -15,12 +15,55 @@
       <div class="functions__container">
         <section class="header__functions">
           <h2 class="visually-hidden">Functions and search</h2>
-          <a href="" class="functions__menu"></a>
-          <a href="" class="functions__search"></a>
+          <div class="functions__lang-wrapper">
+              <a href="" class="functions__menu-lang"></a>
+              <ul class="functions__lang-list">
+                <li class="functions__lang-list-item">
+                  <a class="functions__lang-link functions__lang-link--active" href="">English</a>
+                </li>
+                <li class="functions__lang-list-item">
+                  <a class="functions__lang-link" href="">French</a>
+                </li>
+                <li class="functions__lang-list-item">
+                  <a class="functions__lang-link" href="">Spain</a>
+                </li>
+              </ul>
+            </div>
+          <div class="functions__search-wrapper">
+            <a href="" class="functions__search"></a>
+            <form class="functions__search-form" method="post">
+              <input type="search" class="functions__search-input">
+              <button type="submit" name="button" class="functions__search-submit"></button>
+            </form>
+          </div>
           <a href="index.html" class="functions__logo">
             <img src="img/header/arkana-logo.png" alt="A•R•K•A•N•A">
           </a>
-          <a href="" class="functions__share"></a>
+          <div class="functions__share-wrapper">
+            <a href="" class="functions__share"></a>
+            <ul class="functions__share-list">
+              <li class="functions__share-list-item">
+                <a href="" class="functions__share-link-1">
+                  <p class="visually-hidden">Our facebook</p>
+                </a>
+              </li>
+              <li class="functions__share-list-item">
+                <a href="" class="functions__share-link-2">
+                  <p class="visually-hidden">Our instagram</p>
+                </a>
+              </li>
+              <li class="functions__share-list-item">
+                <a href="" class="functions__share-link-3">
+                  <p class="visually-hidden">Our pinterest</p>
+                </a>
+              </li>
+              <li class="functions__share-list-item">
+                <a href="" class="functions__share-link-4">
+                  <p class="visually-hidden">Our twitter</p>
+                </a>
+              </li>
+            </ul>
+          </div>
           <a href="" class="functions__cart">
             <span class="cart__number">3</span>
           </a>
@@ -30,8 +73,8 @@
       <div class="navigation__container">
         <section class="header__navigation">
           <h2 class="visually-hidden">Navigation</h2>
-          <nav>
-            <ul class="navigation__list nav-list">
+          <nav class="header__nav-tag">
+            <ul class="nav-list">
               <li class="nav-list__item"><a href="">dresses</a></li>
               <li class="nav-list__item"><a href="">blouses</a></li>
               <li class="nav-list__item"><a href="">tees & tops</a></li>
@@ -39,6 +82,145 @@
               <li class="nav-list__item"><a href="">outerwear</a></li>
               <li class="nav-list__item"><a href="">pans</a></li>
             </ul>
+
+            <div class="navigation-big__wrapper">
+              <div class="navigation-big__catalog">
+
+                <div class="navigation-big__column-1">
+                  <div class="catalog__tshirts">
+                    <h3 class="catalog-big__list-heading">t-shirts & blouses</h3>
+                    <ul class="catalog-big__list">
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Blouses</a>
+                      </li>
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Shirts</a>
+                      </li>
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">T-Shirts</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="catalog__warm-clothes">
+                    <h3 class="catalog-big__list-heading catalog-big__list-heading-2">warm clothes</h3>
+                    <ul class="catalog-big__list">
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Cardigans</a>
+                      </li>
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Sweaters</a>
+                      </li>
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Sweatshirts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="navigation-big__column-2">
+                  <div class="catalog__outerwear">
+                    <h3 class="catalog-big__list-heading">outerwear</h3>
+                    <ul class="catalog-big__list">
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Coats</a>
+                      </li>
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Hoodies_&_Pullovers</a>
+                      </li>
+                      <li class="catalog-big__list-item">
+                        <a href="" class="catalog-big__link">Jackets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="navigation-big__items">
+                <div class="navigation-big__item-container">
+                  <div class="item-container__img-wrapper">
+                    <a class="navigation-big__img-link" href="#">
+                      <img class="navigation-big__item-image" width="79" height="105" src="./img/header/navigation-big/item-1.png" alt="">
+                    </a>
+                  </div>
+                  <div class="item-container__information-wrapper">
+                    <a class="navigation-big__link" href="#">
+                      <h3 class="navigation-big__item-name">Happy intarsia crewneck sweater</h3>
+                    </a>
+                    <div class="information-wrapper__price-container">
+                      <span class="navigation-big__item-price">$ 199.00</span>
+                      <span class="navigation-big__item-price-old">$ 299.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="navigation-big__item-container">
+                  <div class="item-container__img-wrapper">
+                    <a class="navigation-big__img-link" href="#">
+                      <img class="navigation-big__item-image" width="79" height="105" src="./img/header/navigation-big/item-2.png" alt="">
+                    </a>
+                  </div>
+                  <div class="item-container__information-wrapper">
+                    <a class="navigation-big__link" href="#">
+                      <h3 class="navigation-big__item-name">Happy intarsia crewneck sweater</h3>
+                    </a>
+                    <div class="information-wrapper__price-container">
+                      <span class="navigation-big__item-price">$ 199.00</span>
+                      <span class="navigation-big__item-price-old">$ 299.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="navigation-big__item-container">
+                  <div class="item-container__img-wrapper">
+                    <a class="navigation-big__img-link" href="#">
+                      <img class="navigation-big__item-image" width="79" height="105" src="./img/header/navigation-big/item-3.png" alt="">
+                    </a>
+                  </div>
+                  <div class="item-container__information-wrapper">
+                    <a class="navigation-big__link" href="#">
+                      <h3 class="navigation-big__item-name">Happy intarsia crewneck sweater</h3>
+                    </a>
+                    <div class="information-wrapper__price-container">
+                      <span class="navigation-big__item-price">$ 199.00</span>
+                      <span class="navigation-big__item-price-old">$ 299.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="navigation-big__logotype">
+                <ul class="logotype__list">
+                  <li class="logotype__list-item">
+                    <a href="#">
+                      <img src="./img/header/logotype.png" alt="">
+                    </a>
+                  </li>
+                  <li class="logotype__list-item">
+                    <a href="#">
+                      <img src="./img/header/logotype.png" alt="">
+                    </a>
+                  </li>
+                  <li class="logotype__list-item">
+                    <a href="#">
+                      <img src="./img/header/logotype.png" alt="">
+                    </a>
+                  </li>
+                  <li class="logotype__list-item">
+                    <a href="#">
+                      <img src="./img/header/logotype.png" alt="">
+                    </a>
+                  </li>
+                  <li class="logotype__list-item">
+                    <a href="#">
+                      <img src="./img/header/logotype.png" alt="">
+                    </a>
+                  </li>
+                  <li class="logotype__list-item">
+                    <a href="#">
+                      <img src="./img/header/logotype.png" alt="">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
         </section>
       </div>
@@ -166,121 +348,298 @@
           <ul class="trending__goods-list">
             <li class="trending__goods-list-item">
               <div class="trending__goods-image-wrapper">
-                <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-1.png" alt="">
+                <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-1.jpg" alt="">
                 <span class="trending__goods-sale trending__goods-span--disabled">-20%</span>
                 <span class="trending__goods-new">New</span>
+
+                <div class="trending__goods-hidden-functions">
+                  <div class="hidden-functions__buttons">
+                    <a class="hidden-button" href="">quick view</a>
+                    <a class="hidden-button" href="">more details</a>
+                  </div>
+                </div>
               </div>
               <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
               <div class="trending__goods-price-wrapper">
                 <span class="trending__goods-price">$ 199.00</span>
-                <span class="trending__goods-price-old visually-hidden" </div>>$ 299.00</span>
+                <span class="trending__goods-price-old visually-hidden">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green color-square--active" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+              </div>
+
+
             </li>
             <li class="trending__goods-list-item">
               <div class="trending__goods-image-wrapper">
-                <img class="trending__goods-image" width="348" height="464" src="" alt="">
+                <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-2.jpg" alt="">
                 <span class="trending__goods-sale trending__goods-span--disabled">-20%</span>
                 <span class="trending__goods-new trending__goods-span--disabled">New</span>
+                <div class="trending__goods-hidden-functions">
+                  <div class="hidden-functions__buttons">
+                    <a class="hidden-button" href="">quick view</a>
+                    <a class="hidden-button" href="">more details</a>
+                  </div>
+                </div>
               </div>
               <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
               <div class="trending__goods-price-wrapper">
                 <span class="trending__goods-price">$ 199.00</span>
                 <span class="trending__goods-price-old trending__goods-span--disabled">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green color-square--active" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
               </div>
             </li>
             <li class="trending__goods-list-item">
               <div class="trending__goods-image-wrapper">
-                <img class="trending__goods-image" width="348" height="464" src="" alt="">
-                <span class="trending__goods-sale  trending__goods-span--disabled">-20%</span>
-                <span class="trending__goods-new  trending__goods-span--disabled">New</span>
-              </div>
-              <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
-              <div class="trending__goods-price-wrapper">
-                <span class="trending__goods-price">$ 199.00</span>
-                <span class="trending__goods-price-old">$ 299.00</span>
-              </div>
-            </li>
-            <li class="trending__goods-list-item">
-              <div class="trending__goods-image-wrapper">
-                <img class="trending__goods-image" width="348" height="464" src="" alt="">
+                <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-3.jpg" alt="">
                 <span class="trending__goods-sale">-20%</span>
                 <span class="trending__goods-new">New</span>
+
+                <div class="trending__goods-hidden-functions">
+                  <div class="hidden-functions__buttons">
+                    <a class="hidden-button" href="">quick view</a>
+                    <a class="hidden-button" href="">more details</a>
+                  </div>
+                </div>
               </div>
               <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
               <div class="trending__goods-price-wrapper">
                 <span class="trending__goods-price">$ 199.00</span>
-                <span class="trending__goods-price-old trending__goods-span--disabled">$ 299.00</span>
+                <span class="trending__goods-price-old">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green color-square--active" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
               </div>
             </li>
             <li class="trending__goods-list-item">
               <div class="trending__goods-image-wrapper">
-              <img class="trending__goods-image" width="348" height="464" src="" alt="">
-              <span class="trending__goods-sale">-20%</span>
-              <span class="trending__goods-new trending__goods-span--disabled">New</span>
-              </div>
-              <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
-              <div class="trending__goods-price-wrapper">
-                <span class="trending__goods-price">$ 199.00</span>
-                <span class="trending__goods-price-old">$ 299.00</span>
-              </div>
-            </li>
-            <li class="trending__goods-list-item">
-            <div class="trending__goods-image-wrapper">
-              <img class="trending__goods-image" width="348" height="464" src="" alt="">
-              <span class="trending__goods-sale">-20%</span>
-              <span class="trending__goods-new trending__goods-span--disabled">New</span>
-            </div>
-              <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
-              <div class="trending__goods-price-wrapper">
-                <span class="trending__goods-price">$ 199.00</span>
-                <span class="trending__goods-price-old">$ 299.00</span>
-              </div>
-            </li>
-            <li class="trending__goods-list-item">
-            <div class="trending__goods-image-wrapper">
-              <img class="trending__goods-image" width="348" height="464" src="" alt="">
-              <span class="trending__goods-sale trending__goods-span--disabled">-20%</span>
-              <span class="trending__goods-new trending__goods-span--disabled">New</span>
+                <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-4.jpg" alt="">
+                <span class="trending__goods-sale  trending__goods-span--disabled">-20%</span>
+                <span class="trending__goods-new  trending__goods-span--disabled">New</span>
+                <div class="trending__goods-hidden-functions">
+                  <div class="hidden-functions__buttons">
+                    <a class="hidden-button" href="">quick view</a>
+                    <a class="hidden-button" href="">more details</a>
+                  </div>
+                </div>
               </div>
               <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
               <div class="trending__goods-price-wrapper">
                 <span class="trending__goods-price">$ 199.00</span>
                 <span class="trending__goods-price-old trending__goods-span--disabled">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green color-square--active" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
               </div>
             </li>
             <li class="trending__goods-list-item">
-            <div class="trending__goods-image-wrapper">
-              <img class="trending__goods-image" width="348" height="464" src="" alt="">
-              <span class="trending__goods-sale trending__goods-span--disabled">-20%</span>
+              <div class="trending__goods-image-wrapper">
+              <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-5.jpg" alt="">
+              <span class="trending__goods-sale">-20%</span>
               <span class="trending__goods-new trending__goods-span--disabled">New</span>
-            </div>
+              <div class="trending__goods-hidden-functions">
+                <div class="hidden-functions__buttons">
+                  <a class="hidden-button" href="">quick view</a>
+                  <a class="hidden-button" href="">more details</a>
+                </div>
+              </div>
+              </div>
               <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
               <div class="trending__goods-price-wrapper">
                 <span class="trending__goods-price">$ 199.00</span>
-                <span class="trending__goods-price-old trending__goods-span--disabled">$ 299.00</span>
+                <span class="trending__goods-price-old">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
               </div>
             </li>
             <li class="trending__goods-list-item">
             <div class="trending__goods-image-wrapper">
-              <img class="trending__goods-image" width="348" height="464" src="" alt="">
+              <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-6.jpg" alt="">
               <span class="trending__goods-sale">-20%</span>
               <span class="trending__goods-new trending__goods-span--disabled">New</span>
+              <div class="trending__goods-hidden-functions">
+                <div class="hidden-functions__buttons">
+                  <a class="hidden-button" href="">quick view</a>
+                  <a class="hidden-button" href="">more details</a>
+                </div>
+              </div>
             </div>
               <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
               <div class="trending__goods-price-wrapper">
                 <span class="trending__goods-price">$ 199.00</span>
                 <span class="trending__goods-price-old">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green color-square--active" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
               </div>
             </li>
             <li class="trending__goods-list-item">
             <div class="trending__goods-image-wrapper">
-              <img class="trending__goods-image" width="348" height="464" src="" alt="">
+              <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-7.jpg" alt="">
               <span class="trending__goods-sale trending__goods-span--disabled">-20%</span>
               <span class="trending__goods-new trending__goods-span--disabled">New</span>
+              <div class="trending__goods-hidden-functions">
+                <div class="hidden-functions__buttons">
+                  <a class="hidden-button" href="">quick view</a>
+                  <a class="hidden-button" href="">more details</a>
+                </div>
+              </div>
+              </div>
+              <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
+              <div class="trending__goods-price-wrapper">
+                <span class="trending__goods-price">$ 199.00</span>
+                <span class="trending__goods-price-old trending__goods-span--disabled">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="trending__goods-list-item">
+            <div class="trending__goods-image-wrapper">
+              <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-8.jpg" alt="">
+              <span class="trending__goods-sale trending__goods-span--disabled">-20%</span>
+              <span class="trending__goods-new trending__goods-span--disabled">New</span>
+              <div class="trending__goods-hidden-functions">
+                <div class="hidden-functions__buttons">
+                  <a class="hidden-button" href="">quick view</a>
+                  <a class="hidden-button" href="">more details</a>
+                </div>
+              </div>
             </div>
               <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
               <div class="trending__goods-price-wrapper">
                 <span class="trending__goods-price">$ 199.00</span>
                 <span class="trending__goods-price-old trending__goods-span--disabled">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green color-square--active" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="trending__goods-list-item">
+            <div class="trending__goods-image-wrapper">
+              <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-9.jpg" alt="">
+              <span class="trending__goods-sale">-20%</span>
+              <span class="trending__goods-new trending__goods-span--disabled">New</span>
+              <div class="trending__goods-hidden-functions">
+                <div class="hidden-functions__buttons">
+                  <a class="hidden-button" href="">quick view</a>
+                  <a class="hidden-button" href="">more details</a>
+                </div>
+              </div>
+            </div>
+              <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
+              <div class="trending__goods-price-wrapper">
+                <span class="trending__goods-price">$ 199.00</span>
+                <span class="trending__goods-price-old">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green color-square--active" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="trending__goods-list-item">
+            <div class="trending__goods-image-wrapper">
+              <img class="trending__goods-image" width="348" height="464" src="./img/main-index/goods/goods-10.jpg" alt="">
+              <span class="trending__goods-sale trending__goods-span--disabled">-20%</span>
+              <span class="trending__goods-new trending__goods-span--disabled">New</span>
+              <div class="trending__goods-hidden-functions">
+                <div class="hidden-functions__buttons">
+                  <a class="hidden-button" href="">quick view</a>
+                  <a class="hidden-button" href="">more details</a>
+                </div>
+              </div>
+            </div>
+              <h3 class="trending__goods-item-name">Excepteur sint occaecat cupidatat</h3>
+              <div class="trending__goods-price-wrapper">
+                <span class="trending__goods-price">$ 199.00</span>
+                <span class="trending__goods-price-old trending__goods-span--disabled">$ 299.00</span>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
+                <div class="trending__goods-hidden-color">
+                  <div class="colors-wrapper">
+                    <a class="color-square-hidden square-pink" href=""></a>
+                    <a class="color-square-hidden square-yellow" href=""></a>
+                    <a class="color-square-hidden square-green" href=""></a>
+                    <a class="color-square-hidden square-blue" href=""></a>
+                  </div>
+                </div>
               </div>
             </li>
           </ul>
