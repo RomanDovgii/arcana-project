@@ -232,31 +232,91 @@
   <section class="main-catalog__filter">
     <h2 class="visually-hidden">Filter</h2>
 
-    <div class="">
-
+    <div class="filter__top">
+      <a class="filter__type-head" href="">top</a>
     </div>
-    <div class="">
-
+    <div class="filter__tshirts-and-blouses">
+      <a class="filter__type-head" href="">t-shirt & blouses</a>
+      <ul class="filter__type-list">
+        <li class="filter__type-list-item"><a href="" class="filter__link">Blouses</a></li>
+        <li class="filter__type-list-item"><a href="" class="filter__link">Shirts</a></li>
+        <li class="filter__type-list-item"><a href="" class="filter__link">T-Shirts</a></li>
+      </ul>
     </div>
-    <div class="">
-
+    <div class="filter__tshirt">
+      <a class="filter__type-head" href="">t-shirt</a>
     </div>
-    <div class="">
-      
+    <div class="outerwear">
+      <a class="filter__type-head" href="">outerwear</a>
     </div>
 
-    <h3>filter by</h3>
-    <form class="" action="index.html" method="post">
-      <fieldset>
-        <legend>Categories</legend>
+    <h3 class="filter__form-head">filter by</h3>
+    <form class="filter__form" class="" action="index.html" method="post">
+      <fieldset class="filter__fieldset">
+        <legend class="filter__legend">Categories</legend>
+        <input class="visually-hidden" type="radio" name="categories" value="" id="category-1">
+        <input class="visually-hidden" type="radio" name="categories" value="" id="category-2">
+        <input class="visually-hidden" type="radio" name="categories" value="" id="category-3">
+
+        <label class="fieldset__label" for="category-1">
+          <span class="fieldset__span"></span>
+          dresses
+        </label>
+
+        <label class="fieldset__label" for="category-2">
+          <span class="fieldset__span"></span>
+          blouses
+        </label>
+
+        <label class="fieldset__label" for="category-3">
+          <span class="fieldset__span"></span>
+          outerwear
+        </label>
       </fieldset>
-      <fieldset>
-        <legend>Color</legend>
+      <fieldset class="filter__fieldset">
+        <legend class="filter__legend">Color</legend>
+        <input class="visually-hidden" type="checkbox" name="color" value="" id="color-1">
+        <input class="visually-hidden" type="checkbox" name="color" value="" id="color-2">
+        <input class="visually-hidden" type="checkbox" name="color" value="" id="color-3">
+        <input class="visually-hidden" type="checkbox" name="color" value="" id="color-4">
+
+        <label class="fieldset__label" for="color-1">
+          <span class="fieldset__span fieldset__span-color fieldset__span-color-1"></span>
+          beige
+        </label>
+        <label class="fieldset__label" for="color-2">
+          <span class="fieldset__span fieldset__span-color fieldset__span-color-2"></span>
+          black
+        </label>
+        <label class="fieldset__label" for="color-3">
+          <span class="fieldset__span fieldset__span-color fieldset__span-color-3"></span>
+          yellow
+        </label>
+        <label class="fieldset__label" for="color-4">
+          <span class="fieldset__span fieldset__span-color fieldset__span-color-4"></span>
+          white
+        </label>
       </fieldset>
-      <fieldset>
-        <legend>Compositions</legend>
+      <fieldset class="filter__fieldset">
+        <legend class="filter__legend">Compositions</legend>
+        <input class="visually-hidden" type="radio" name="compositions" value="" id="compositions-1">
+        <input class="visually-hidden" type="radio" name="compositions" value="" id="compositions-2">
+        <input class="visually-hidden" type="radio" name="compositions" value="" id="compositions-3">
+
+        <label class="fieldset__label" for="compositions-1">
+          <span class="fieldset__span"></span>
+          cotton
+        </label>
+        <label class="fieldset__label" for="compositions-2">
+          <span class="fieldset__span"></span>
+          polyester
+        </label>
+        <label class="fieldset__label" for="compositions-3">
+          <span class="fieldset__span"></span>
+          viscose
+        </label>
       </fieldset>
-      <button type="reset" name="button">clean all</button>
+      <button class="filter__button" type="reset" name="button">clean all</button>
     </form>
 
 
@@ -484,11 +544,11 @@
         <li class="pagination__list-item"><a class="pagination__link" href="">previous</a></li>
         <li class="pagination__list-item-numbers">
           <ul class="pagination__number-list">
-            <li class="pagination__numer-list-item"><a class="pagination__link" href="">1</a></li>
-            <li class="pagination__number-list-item"><a class="pagination__link" href="">2</a></li>
-            <li class="pagination__number-list-item"><a class="pagination__link" href="">3</a></li>
-            <li class="pagination__number-list-item"><a class="pagination__link" href="">4</a></li>
-            <li class="pagination__number-list-item"><a class="pagination__link" href="">5</a></li>
+            <li class="pagination__numer-list-item"><a class="pagination__link-number" href="">1</a></li>
+            <li class="pagination__number-list-item"><a class="pagination__link-number" href="">2</a></li>
+            <li class="pagination__number-list-item"><a class="pagination__link-number" href="">3</a></li>
+            <li class="pagination__number-list-item"><a class="pagination__link-number" href="">4</a></li>
+            <li class="pagination__number-list-item"><a class="pagination__link-number" href="">5</a></li>
           </ul>
         </li>
         <li class="pagination__list-item"><a class="pagination__link" href="">next</a></li>
