@@ -1358,7 +1358,6 @@ margin-top: 13px;
   padding: 0 21px 0 21px;
   cursor: pointer;
 }
-
 .footer__heading {
   font-size: 18px;
   font-weight: 400px;
@@ -1705,7 +1704,16 @@ margin-top: 13px;
   line-height: 30px;
   text-transform: capitalize;
   font-size: 13.08px;
+}
 
+.pagination__link-number--active {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.pagination__link-number:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .pagination__link {
@@ -1766,8 +1774,9 @@ margin-top: 13px;
   height: 4px;
   background-image: url("../img/main-catalog/arrow.svg");
   background-repeat: no-repeat;
-  transform: rotate(180deg);
 }
+
+
 
 .main-catalog__filter div {
   margin-top: 20px;
@@ -1779,10 +1788,19 @@ margin-top: 13px;
 }
 
 .filter__type-list {
+  display: none;
   list-style: none;
   margin-top: 6px;
   margin-left: -1px;
   margin-bottom: 23px;
+}
+
+.filter__tshirts-and-blouses:hover .filter__type-list {
+  display: block;
+}
+
+.filter__tshirts-and-blouses:hover::after {
+  transform: rotate(180deg);
 }
 
 .filter__type-list-item {
@@ -1798,6 +1816,7 @@ margin-top: 13px;
 
 .filter__link {
   text-decoration: none;
+  color: rgba(146, 146, 146, 1);
 }
 
 .filter__form-head {
@@ -1857,6 +1876,15 @@ margin-top: 13px;
   margin-top: 28px;
 }
 
+
+
+.filter__button:hover {
+  background-color: rgba(196, 161, 19, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(196, 161, 19, 1);
+}
+
+
 .fieldset__span {
   position: absolute;
   top: -1px;
@@ -1891,4 +1919,37 @@ margin-top: 13px;
 .fieldset__span-color-4 {
   background-color: rgba(246, 246, 246, 1);
   border: 1px solid rgba(246, 246, 246, 1);
+}
+
+#category-1:checked ~ label[for="category-1"] span::after,
+#category-2:checked ~ label[for="category-2"] span::after,
+#category-3:checked ~ label[for="category-3"] span::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#compositions-1:checked ~ label[for="compositions-1"] span::after,
+#compositions-2:checked ~ label[for="compositions-2"] span::after,
+#compositions-3:checked ~ label[for="compositions-3"] span::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#color-1:checked ~ label[for="color-1"] span,
+#color-2:checked ~ label[for="color-2"] span,
+#color-3:checked ~ label[for="color-3"] span,
+#color-4:checked ~ label[for="color-4"] span {
+  border: 1px solid rgba(230, 230, 230, 1);
 }
