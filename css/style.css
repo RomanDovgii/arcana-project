@@ -10,10 +10,12 @@ body {
   width: 1920px;
   margin: 0 auto;
 }
+
 header {
   position: relative;
   z-index:3;
 }
+
 .container {
   width: 1920px;
   margin: 0 auto;
