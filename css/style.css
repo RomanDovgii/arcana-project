@@ -61,7 +61,10 @@ header {
 .navigation-big__wrapper {
   position: absolute;
   top: 60px;
-  left: 1px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   display: none;
   width: 1110px;
   height: 435px;
@@ -1974,6 +1977,7 @@ margin-top: 13px;
 }
 
 @media screen and (max-width: 1355px) {
+
   .main__bags-and-shoes {
     flex-direction: column;
   }
@@ -1992,8 +1996,11 @@ margin-top: 13px;
 .header__functions {
   padding: 0 20px 0 20px;
 }
+
+.navigation-big__wrapper {
+  max-width: 1000px;
+}
 }
 
-@media screen and (max-width: 1150px) {
-
+@media screen and (max-width: 1050px) {
 }
